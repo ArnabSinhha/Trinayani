@@ -1,0 +1,168 @@
+/* 
+  Author Arnab Sinha
+  Theme: Restaurent Food Order
+  version:1.0
+*/
+
+/* Reset values to Default*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+/*css for nav bar*/
+
+.logo{
+    float: left;
+    width: 20%;
+    border: 1px solid black
+}
+.img-responsive{
+
+    width: 100%;
+}
+.img-curve{
+    border-radius: 20px;
+}
+
+/*css for menu class */
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    font-weight: bold;
+
+    padding: 1%;
+    display: inline;
+   
+}
+.menu{
+    line-height: 50px;
+}
+.clear-fix{
+    
+    clear:both;
+    float: none;
+}
+
+
+/*extra classes */
+h2{
+    color: burlywood;
+    font-size: 2rem;
+}
+a{
+    color:crimson;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkmagenta;
+}
+h3{
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-right{
+    text-align: right ;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: whitesmoke;
+}
+.container{
+    border: 1px solid red;
+    width: 80%;
+    margin:0 auto ; /* top right bottom left*/
+    padding: 3%;
+   
+     
+}
+  /* css for food search*/
+.btn{
+    padding: 1%;
+    border:none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: turquoise;
+}
+
+/* Css for food serach section*/
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    padding-top:6%;
+    padding-bottom: 6%;
+    background-size: cover;
+    background-position: center; 
+    
+    
+    
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem; /* for adaptive */
+    border: none;
+    border-radius: 10px;
+}
+
+/*css for categories */
+
+.categories{
+    padding: 4% 0;
+    
+}
+
+.box3{
+    
+    width: 27%;
+    float:left;
+    margin: 2%;
+}
+
+.float-container{
+    position: relative;
+    
+}
+
+.float-text{
+    position: absolute;
+    bottom: 15px; 
+    left: 35%;
+}
+
+/* css for mood menu */
+.food-menu{
+ background-color:grey;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ 
+}
+.food-menu-box{
+    border: 1px solid black ;
+    width: 27%;
+    margin: 1%;
+    float: left;
+    padding:1%;
+    background-color: blanchedalmond;
+
+    padding: 2%;
+    
+}
